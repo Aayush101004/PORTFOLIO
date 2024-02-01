@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+}
+
+.start {
+    display: block;
+}
+
+.start h1 {
+    margin: auto;
+    padding: 7px 0px;
+}
+
+.con a {
+    color: rgb(26, 26, 26);
+}
+
+h3 {
+    margin: 0px 30%;
+}
+
+.right {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.right img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 169px;
+    float: right;
+    border-radius: 2000px;
+}
+
+.right p {
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+ul li {
+    margin: 17px;
+    padding: 7px;
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+ul li a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.st h1 {
+    text-align: center;
+}
+
+div .tab {
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 15px;
+    margin: auto;
+    width: 65%;
+}
+
+th {
+    background-color: #d4d3d3;
+    text-align: right;
+    padding: 13px;
+}
+
+td {
+    background-color: #FAF0DD;
+    text-align: left;
+    padding: 13px;
+}
+
+.heading1 {
+    border-top-left-radius: 15px;
+}
+
+.heading2 {
+    border-bottom-left-radius: 15px;
+}
+
+.data1 {
+    border-top-right-radius: 15px;
+}
+
+.data2 {
+    border-bottom-right-radius: 15px;
+}
+
+.head {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #a5bbff;
+}
+
+.head1 {
+    background-color: #a5bbff;
+}
+
+.head2 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.center {
+    text-align: center;
+}
